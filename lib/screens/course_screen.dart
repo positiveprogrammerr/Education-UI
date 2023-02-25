@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:education_ui/widgets/video_section.dart';
 import 'package:education_ui/widgets/description_section.dart';
 
@@ -54,7 +53,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     color: Colors.white,
                     shape: BoxShape.circle,
                   ),
-                  child: const Icon(CupertinoIcons.play_arrow_solid,
+                  child: const Icon(Icons.play_arrow_rounded,
                   color: Color(0xFF674AEF),
                   size: 45,
                   ),

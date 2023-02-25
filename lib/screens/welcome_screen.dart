@@ -79,7 +79,7 @@ class WelcomeScreen extends StatelessWidget {
                     const SizedBox(height: 60),
                     Material(
                       // ignore: use_full_hex_values_for_flutter_colors
-                      color:const Color(0xff674aaef),
+                      color:const Color(0xFF674AEF),
                       borderRadius: BorderRadius.circular(10),
                       child: InkWell(
                         onTap: () {

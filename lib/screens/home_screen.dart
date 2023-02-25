@@ -122,7 +122,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 20,left: 15,right: 15),
+            padding: const EdgeInsets.only(top: 20,left: 15,right: 15,bottom: 20),
             child:  Column(
               children: [
                 GridView.builder(
@@ -193,6 +193,7 @@ class HomeScreen extends StatelessWidget {
                             Navigator.push(context, MaterialPageRoute(builder: (context) => CourseScreen(imgList[index]),));
                           },
                           child: Container(
+                            margin: const EdgeInsets.all(5),
                             padding: const EdgeInsets.symmetric(vertical: 20,horizontal:10),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20),
