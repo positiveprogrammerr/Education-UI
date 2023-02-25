@@ -1,4 +1,4 @@
-# education_ui
+# Education UI
 
 A new Flutter project.
 
